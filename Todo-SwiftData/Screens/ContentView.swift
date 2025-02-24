@@ -19,7 +19,7 @@ struct ContentView: View {
             List {
                 ForEach(categories) { category in
                     NavigationLink {
-//                        TaskListView(category: category)
+                        TaskListView(category: category)
                     } label: {
                         Text(category.title)
                     }
