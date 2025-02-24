@@ -6,14 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		07DFC1E52D6CA62300FBADBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DFC1E22D6CA62300FBADBF /* ContentView.swift */; };
+		07DFC1E62D6CA62300FBADBF /* Todo_SwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DFC1E32D6CA62300FBADBF /* Todo_SwiftDataApp.swift */; };
+		07DFC1E72D6CA62300FBADBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DFC1DF2D6CA62300FBADBF /* Preview Assets.xcassets */; };
+		07DFC1E82D6CA62300FBADBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DFC1E12D6CA62300FBADBF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		07DFC1CE2D6CA61500FBADBF /* Todo-SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-SwiftData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DFC1DF2D6CA62300FBADBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07DFC1E12D6CA62300FBADBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07DFC1E22D6CA62300FBADBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07DFC1E32D6CA62300FBADBF /* Todo_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_SwiftDataApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		07DFC1D02D6CA61500FBADBF /* Todo-SwiftData */ = {
+		07DFC1E92D6CA62B00FBADBF /* Screens */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Todo-SwiftData";
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		07DFC1EA2D6CA63000FBADBF /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +48,7 @@
 		07DFC1C52D6CA61500FBADBF = {
 			isa = PBXGroup;
 			children = (
-				07DFC1D02D6CA61500FBADBF /* Todo-SwiftData */,
+				07DFC1E42D6CA62300FBADBF /* Todo-SwiftData */,
 				07DFC1CF2D6CA61500FBADBF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +59,27 @@
 				07DFC1CE2D6CA61500FBADBF /* Todo-SwiftData.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		07DFC1E02D6CA62300FBADBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07DFC1DF2D6CA62300FBADBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07DFC1E42D6CA62300FBADBF /* Todo-SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				07DFC1EA2D6CA63000FBADBF /* Models */,
+				07DFC1E92D6CA62B00FBADBF /* Screens */,
+				07DFC1E02D6CA62300FBADBF /* Preview Content */,
+				07DFC1E12D6CA62300FBADBF /* Assets.xcassets */,
+				07DFC1E22D6CA62300FBADBF /* ContentView.swift */,
+				07DFC1E32D6CA62300FBADBF /* Todo_SwiftDataApp.swift */,
+			);
+			path = "Todo-SwiftData";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,7 +98,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				07DFC1D02D6CA61500FBADBF /* Todo-SwiftData */,
+				07DFC1E92D6CA62B00FBADBF /* Screens */,
+				07DFC1EA2D6CA63000FBADBF /* Models */,
 			);
 			name = "Todo-SwiftData";
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07DFC1E72D6CA62300FBADBF /* Preview Assets.xcassets in Resources */,
+				07DFC1E82D6CA62300FBADBF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07DFC1E52D6CA62300FBADBF /* ContentView.swift in Sources */,
+				07DFC1E62D6CA62300FBADBF /* Todo_SwiftDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
