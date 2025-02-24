@@ -40,7 +40,7 @@ struct TaskListView: View {
             }
         }
         .sheet(isPresented: $showingAddTask) {
-//            AddTaskView(category: category)
+            AddTaskView(category: category)
         }
     }
 

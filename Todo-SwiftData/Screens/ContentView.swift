@@ -37,7 +37,7 @@ struct ContentView: View {
                 }
             }
             .sheet(isPresented: $showingAddCategory) {
-//                AddCategoryView()
+                AddCategoryView()
             }
         }
     }
